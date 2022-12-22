@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from flask import Flask, render_template, url_for, request, redirect, session, flash, make_response
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, timedelta
